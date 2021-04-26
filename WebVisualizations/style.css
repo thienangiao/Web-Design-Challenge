@@ -1,0 +1,74 @@
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: left;
+  color: rgb(46, 46, 180);
+}
+
+h2 {
+  font-size: 24px;
+  text-align: left;
+  color: rgb(46, 46, 180);
+}
+
+h4 {
+  text-align: centre;
+  color: rgb(46, 46, 180);
+}
+
+figcaption {
+  font-size: 9px;
+  text-align: left;
+  padding-left: 30px;
+}
+th {
+  text-align: left;
+}
+
+/* Selecting elements by class */
+.container {
+  position: absolute;  
+}
+
+#summary {
+  padding-right: 60px;
+}
+
+#visualizations {
+  right: 400px;
+}
+
+#fig_url {
+  width: 200px;
+  height: 150px;
+}
+
+
+/* Selecting elements by ID */
+#summary,
+#summary-image {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#summary {
+  width: 60%;
+  top: 0;
+  left: 0;
+}
+
+#summary-image {
+  width: 250px;
+  height: 200px;
+}

@@ -27,7 +27,7 @@ h4 {
 figcaption {
   font-size: 9px;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 th {
   text-align: left;
@@ -46,12 +46,6 @@ th {
   right: 400px;
 }
 
-#fig_url {
-  width: 200px;
-  height: 150px;
-}
-
-
 /* Selecting elements by ID */
 #summary,
 #summary-image {
@@ -69,6 +63,5 @@ th {
 }
 
 #summary-image {
-  width: 250px;
-  height: 200px;
+  width: 50%;
 }

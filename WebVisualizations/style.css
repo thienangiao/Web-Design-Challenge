@@ -38,6 +38,10 @@ th {
   position: absolute;  
 }
 
+.viz {
+  width: 50%;
+}
+
 #summary {
   padding-right: 60px;
 }
